@@ -22,3 +22,5 @@ data/nltk_data.zip
 examples/retrievers/indexs
 output
 examples/rag/indexs
+data/A.zip
+data/A_document/*.pdf

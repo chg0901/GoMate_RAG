@@ -19,16 +19,16 @@ from gomate.modules.retrieval.dense_retriever import DenseRetrieverConfig
 
 # 修改成自己的配置！！！
 app_config = ApplicationConfig()
-app_config.docs_path = "/data/users/searchgpt/yq/GoMate_dev/data/docs/"
-app_config.llm_model_path = "/data/users/searchgpt/pretrained_models/glm-4-9b-chat"
+app_config.docs_path = "/root/GoMate_RAG/data/A_document/"
+app_config.llm_model_path = "/root/share/new_models/Shanghai_AI_Laboratory/internlm2_5-7b-chat"
 
 retriever_config = DenseRetrieverConfig(
-    model_name_or_path="/data/users/searchgpt/pretrained_models/bge-large-zh-v1.5",
-    dim=1024,
-    index_dir='/data/users/searchgpt/yq/GoMate/examples/retrievers/dense_cache'
+    model_name_or_path="/root/group_share/Hong/BAAI/bge-large-zh-v1.5/BAAI/bge-large-zh-v1___5",
+    dim=32000,
+    index_path='./examples/retrievers/dense_cache'
 )
 rerank_config = BgeRerankerConfig(
-    model_name_or_path="/data/users/searchgpt/pretrained_models/bge-reranker-large"
+    model_name_or_path="/root/group_share/Hong/BAAI/bge-reranker-large/BAAI/bge-reranker-large"
 )
 
 app_config.retriever_config = retriever_config
