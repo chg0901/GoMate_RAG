@@ -1,0 +1,284 @@
+(gomate) root@intern-studio-006861:~/GoMate_RAG# python app.py
+/root/.conda/envs/gomate/lib/python3.11/site-packages/gradio_client/documentation.py:106: UserWarning: Could not get documentation group for <class 'gradio.mix.Parallel'>: No known documentation group for module 'gradio.mix'
+  warnings.warn(f"Could not get documentation group for {cls}: {exc}")
+/root/.conda/envs/gomate/lib/python3.11/site-packages/gradio_client/documentation.py:106: UserWarning: Could not get documentation group for <class 'gradio.mix.Series'>: No known documentation group for module 'gradio.mix'
+  warnings.warn(f"Could not get documentation group for {cls}: {exc}")
+/root/GoMate_RAG/gomate/modules/document/utils.py
+项目根目录为: /root/GoMate_RAG
+[HUQIE]:Build default trie
+[HUQIE]:Build trie /root/GoMate_RAG/data/huqie/huqie.txt
+[HUQIE]:Faild to build trie,  /root/GoMate_RAG/data/huqie/huqie.txt [Errno 2] No such file or directory: '/root/GoMate_RAG/data/huqie/huqie.txt'
+Successful load rerank model
+Loading checkpoint shards: 100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 8/8 [00:03<00:00,  2.12it/s]
+init_vector_store ... 
+2024-09-22 00:17:25.058 | INFO     | gomate.modules.document.common_parser:parse:28 - /root/GoMate_RAG/data/A_document/AF01.pdf
+WARNING:root:Miss outlines
+2024-09-22 00:17:26.225 | INFO     | gomate.modules.document.common_parser:parse:28 - /root/GoMate_RAG/data/A_document/AF02.pdf
+WARNING:root:Miss outlines
+2024-09-22 00:17:26.275 | INFO     | gomate.modules.document.common_parser:parse:28 - /root/GoMate_RAG/data/A_document/AF04.pdf
+WARNING:root:Miss outlines
+2024-09-22 00:17:26.311 | INFO     | gomate.modules.document.common_parser:parse:28 - /root/GoMate_RAG/data/A_document/AF05.pdf
+WARNING:root:Miss outlines
+2024-09-22 00:17:26.403 | INFO     | gomate.modules.document.common_parser:parse:28 - /root/GoMate_RAG/data/A_document/AF07.pdf
+WARNING:root:Miss outlines
+2024-09-22 00:17:26.509 | INFO     | gomate.modules.document.common_parser:parse:28 - /root/GoMate_RAG/data/A_document/AF08.pdf
+WARNING:root:Miss outlines
+2024-09-22 00:17:26.606 | INFO     | gomate.modules.document.common_parser:parse:28 - /root/GoMate_RAG/data/A_document/AF10.pdf
+WARNING:root:Miss outlines
+2024-09-22 00:17:26.732 | INFO     | gomate.modules.document.common_parser:parse:28 - /root/GoMate_RAG/data/A_document/AF11.pdf
+WARNING:root:Miss outlines
+2024-09-22 00:17:26.828 | INFO     | gomate.modules.document.common_parser:parse:28 - /root/GoMate_RAG/data/A_document/AF13.pdf
+WARNING:root:Miss outlines
+2024-09-22 00:17:26.997 | INFO     | gomate.modules.document.common_parser:parse:28 - /root/GoMate_RAG/data/A_document/AF14.pdf
+WARNING:root:Miss outlines
+2024-09-22 00:17:27.153 | INFO     | gomate.modules.document.common_parser:parse:28 - /root/GoMate_RAG/data/A_document/AF16.pdf
+WARNING:root:Miss outlines
+2024-09-22 00:17:27.224 | INFO     | gomate.modules.document.common_parser:parse:28 - /root/GoMate_RAG/data/A_document/AF17.pdf
+WARNING:root:Miss outlines
+2024-09-22 00:17:27.312 | INFO     | gomate.modules.document.common_parser:parse:28 - /root/GoMate_RAG/data/A_document/AF19.pdf
+WARNING:root:Miss outlines
+2024-09-22 00:17:27.427 | INFO     | gomate.modules.document.common_parser:parse:28 - /root/GoMate_RAG/data/A_document/AF20.pdf
+WARNING:root:Miss outlines
+2024-09-22 00:17:27.777 | INFO     | gomate.modules.document.common_parser:parse:28 - /root/GoMate_RAG/data/A_document/AF22.pdf
+WARNING:root:Miss outlines
+2024-09-22 00:17:27.878 | INFO     | gomate.modules.document.common_parser:parse:28 - /root/GoMate_RAG/data/A_document/AF23.pdf
+WARNING:root:Miss outlines
+2024-09-22 00:17:27.985 | INFO     | gomate.modules.document.common_parser:parse:28 - /root/GoMate_RAG/data/A_document/AF25.pdf
+WARNING:root:Miss outlines
+2024-09-22 00:17:28.079 | INFO     | gomate.modules.document.common_parser:parse:28 - /root/GoMate_RAG/data/A_document/AF26.pdf
+WARNING:root:Miss outlines
+2024-09-22 00:17:28.129 | INFO     | gomate.modules.document.common_parser:parse:28 - /root/GoMate_RAG/data/A_document/AF28.pdf
+WARNING:root:Miss outlines
+2024-09-22 00:17:28.215 | INFO     | gomate.modules.document.common_parser:parse:28 - /root/GoMate_RAG/data/A_document/AF29.pdf
+WARNING:root:Miss outlines
+2024-09-22 00:17:28.340 | INFO     | gomate.modules.document.common_parser:parse:28 - /root/GoMate_RAG/data/A_document/AF31.pdf
+WARNING:root:Miss outlines
+2024-09-22 00:17:28.411 | INFO     | gomate.modules.document.common_parser:parse:28 - /root/GoMate_RAG/data/A_document/AF33.pdf
+WARNING:root:Miss outlines
+2024-09-22 00:17:28.486 | INFO     | gomate.modules.document.common_parser:parse:28 - /root/GoMate_RAG/data/A_document/AF35.pdf
+WARNING:root:Miss outlines
+2024-09-22 00:17:28.562 | INFO     | gomate.modules.document.common_parser:parse:28 - /root/GoMate_RAG/data/A_document/AF37.pdf
+2024-09-22 00:17:28.659 | INFO     | gomate.modules.document.common_parser:parse:28 - /root/GoMate_RAG/data/A_document/AF39.pdf
+WARNING:root:Miss outlines
+2024-09-22 00:17:28.765 | INFO     | gomate.modules.document.common_parser:parse:28 - /root/GoMate_RAG/data/A_document/AF41.pdf
+WARNING:root:Miss outlines
+2024-09-22 00:17:28.830 | INFO     | gomate.modules.document.common_parser:parse:28 - /root/GoMate_RAG/data/A_document/AT01.pdf
+2024-09-22 00:17:28.935 | INFO     | gomate.modules.document.common_parser:parse:28 - /root/GoMate_RAG/data/A_document/AT02.pdf
+2024-09-22 00:17:29.023 | INFO     | gomate.modules.document.common_parser:parse:28 - /root/GoMate_RAG/data/A_document/AT03.pdf
+WARNING:root:Miss outlines
+2024-09-22 00:17:29.056 | INFO     | gomate.modules.document.common_parser:parse:28 - /root/GoMate_RAG/data/A_document/AT04.pdf
+2024-09-22 00:17:29.392 | INFO     | gomate.modules.document.common_parser:parse:28 - /root/GoMate_RAG/data/A_document/AT05.pdf
+WARNING:root:Miss outlines
+2024-09-22 00:17:29.455 | INFO     | gomate.modules.document.common_parser:parse:28 - /root/GoMate_RAG/data/A_document/AT06.pdf
+WARNING:root:Miss outlines
+2024-09-22 00:17:29.538 | INFO     | gomate.modules.document.common_parser:parse:28 - /root/GoMate_RAG/data/A_document/AT07.pdf
+WARNING:root:Miss outlines
+2024-09-22 00:17:29.603 | INFO     | gomate.modules.document.common_parser:parse:28 - /root/GoMate_RAG/data/A_document/AT08.pdf
+WARNING:root:Miss outlines
+2024-09-22 00:17:29.664 | INFO     | gomate.modules.document.common_parser:parse:28 - /root/GoMate_RAG/data/A_document/AT09.pdf
+WARNING:root:Miss outlines
+2024-09-22 00:17:29.734 | INFO     | gomate.modules.document.common_parser:parse:28 - /root/GoMate_RAG/data/A_document/AT10.pdf
+WARNING:root:Miss outlines
+2024-09-22 00:17:29.959 | INFO     | gomate.modules.document.common_parser:parse:28 - /root/GoMate_RAG/data/A_document/AT11.pdf
+WARNING:root:Miss outlines
+2024-09-22 00:17:30.054 | INFO     | gomate.modules.document.common_parser:parse:28 - /root/GoMate_RAG/data/A_document/AT12.pdf
+WARNING:root:Miss outlines
+2024-09-22 00:17:30.200 | INFO     | gomate.modules.document.common_parser:parse:28 - /root/GoMate_RAG/data/A_document/AT13.pdf
+WARNING:root:Miss outlines
+2024-09-22 00:17:30.554 | INFO     | gomate.modules.document.common_parser:parse:28 - /root/GoMate_RAG/data/A_document/AT14.pdf
+2024-09-22 00:17:30.653 | INFO     | gomate.modules.document.common_parser:parse:28 - /root/GoMate_RAG/data/A_document/AT15.pdf
+2024-09-22 00:17:30.758 | INFO     | gomate.modules.document.common_parser:parse:28 - /root/GoMate_RAG/data/A_document/AT16.pdf
+WARNING:root:Miss outlines
+2024-09-22 00:17:30.838 | INFO     | gomate.modules.document.common_parser:parse:28 - /root/GoMate_RAG/data/A_document/AT17.pdf
+WARNING:root:Miss outlines
+2024-09-22 00:17:30.924 | INFO     | gomate.modules.document.common_parser:parse:28 - /root/GoMate_RAG/data/A_document/AT18.pdf
+WARNING:root:Miss outlines
+2024-09-22 00:17:31.011 | INFO     | gomate.modules.document.common_parser:parse:28 - /root/GoMate_RAG/data/A_document/AT19.pdf
+WARNING:root:Miss outlines
+2024-09-22 00:17:31.065 | INFO     | gomate.modules.document.common_parser:parse:28 - /root/GoMate_RAG/data/A_document/AT20.pdf
+WARNING:root:Miss outlines
+2024-09-22 00:17:31.096 | INFO     | gomate.modules.document.common_parser:parse:28 - /root/GoMate_RAG/data/A_document/AT21.pdf
+WARNING:root:Miss outlines
+2024-09-22 00:17:31.145 | INFO     | gomate.modules.document.common_parser:parse:28 - /root/GoMate_RAG/data/A_document/AT22.pdf
+WARNING:root:Miss outlines
+2024-09-22 00:17:31.229 | INFO     | gomate.modules.document.common_parser:parse:28 - /root/GoMate_RAG/data/A_document/AT23.pdf
+WARNING:root:Miss outlines
+2024-09-22 00:17:31.686 | INFO     | gomate.modules.document.common_parser:parse:28 - /root/GoMate_RAG/data/A_document/AT24.pdf
+WARNING:root:Miss outlines
+2024-09-22 00:17:31.777 | INFO     | gomate.modules.document.common_parser:parse:28 - /root/GoMate_RAG/data/A_document/AT25.pdf
+2024-09-22 00:17:31.911 | INFO     | gomate.modules.document.common_parser:parse:28 - /root/GoMate_RAG/data/A_document/AT26.pdf
+WARNING:root:Miss outlines
+2024-09-22 00:17:31.991 | INFO     | gomate.modules.document.common_parser:parse:28 - /root/GoMate_RAG/data/A_document/AT27.pdf
+WARNING:root:Miss outlines
+2024-09-22 00:17:32.077 | INFO     | gomate.modules.document.common_parser:parse:28 - /root/GoMate_RAG/data/A_document/AT28.pdf
+2024-09-22 00:17:32.202 | INFO     | gomate.modules.document.common_parser:parse:28 - /root/GoMate_RAG/data/A_document/AT29.pdf
+WARNING:root:Miss outlines
+2024-09-22 00:17:32.289 | INFO     | gomate.modules.document.common_parser:parse:28 - /root/GoMate_RAG/data/A_document/AT30.pdf
+2024-09-22 00:17:32.794 | INFO     | gomate.modules.document.common_parser:parse:28 - /root/GoMate_RAG/data/A_document/AT31.pdf
+WARNING:root:Miss outlines
+2024-09-22 00:17:32.848 | INFO     | gomate.modules.document.common_parser:parse:28 - /root/GoMate_RAG/data/A_document/AT32.pdf
+WARNING:root:Miss outlines
+2024-09-22 00:17:32.957 | INFO     | gomate.modules.document.common_parser:parse:28 - /root/GoMate_RAG/data/A_document/AT33.pdf
+WARNING:root:Miss outlines
+2024-09-22 00:17:32.997 | INFO     | gomate.modules.document.common_parser:parse:28 - /root/GoMate_RAG/data/A_document/AT34.pdf
+WARNING:root:Miss outlines
+2024-09-22 00:17:33.134 | INFO     | gomate.modules.document.common_parser:parse:28 - /root/GoMate_RAG/data/A_document/AT35.pdf
+WARNING:root:Miss outlines
+2024-09-22 00:17:33.206 | INFO     | gomate.modules.document.common_parser:parse:28 - /root/GoMate_RAG/data/A_document/AW01.pdf
+WARNING:root:Miss outlines
+2024-09-22 00:17:33.260 | INFO     | gomate.modules.document.common_parser:parse:28 - /root/GoMate_RAG/data/A_document/AW02.pdf
+WARNING:root:Miss outlines
+2024-09-22 00:17:33.353 | INFO     | gomate.modules.document.common_parser:parse:28 - /root/GoMate_RAG/data/A_document/AW03.pdf
+WARNING:root:Miss outlines
+2024-09-22 00:17:33.415 | INFO     | gomate.modules.document.common_parser:parse:28 - /root/GoMate_RAG/data/A_document/AW04.pdf
+WARNING:root:Miss outlines
+2024-09-22 00:17:33.729 | INFO     | gomate.modules.document.common_parser:parse:28 - /root/GoMate_RAG/data/A_document/AW05.pdf
+WARNING:root:Miss outlines
+2024-09-22 00:17:33.840 | INFO     | gomate.modules.document.common_parser:parse:28 - /root/GoMate_RAG/data/A_document/AW06.pdf
+WARNING:root:Miss outlines
+2024-09-22 00:17:33.896 | INFO     | gomate.modules.document.common_parser:parse:28 - /root/GoMate_RAG/data/A_document/AW07.pdf
+WARNING:root:Miss outlines
+2024-09-22 00:17:33.979 | INFO     | gomate.modules.document.common_parser:parse:28 - /root/GoMate_RAG/data/A_document/AW08.pdf
+WARNING:root:Miss outlines
+2024-09-22 00:17:34.037 | INFO     | gomate.modules.document.common_parser:parse:28 - /root/GoMate_RAG/data/A_document/AW09.pdf
+WARNING:root:Miss outlines
+2024-09-22 00:17:34.119 | INFO     | gomate.modules.document.common_parser:parse:28 - /root/GoMate_RAG/data/A_document/AW10.pdf
+WARNING:root:Miss outlines
+2024-09-22 00:17:34.397 | INFO     | gomate.modules.document.common_parser:parse:28 - /root/GoMate_RAG/data/A_document/AW11.pdf
+WARNING:root:Miss outlines
+2024-09-22 00:17:34.459 | INFO     | gomate.modules.document.common_parser:parse:28 - /root/GoMate_RAG/data/A_document/AW12.pdf
+WARNING:root:Miss outlines
+2024-09-22 00:17:34.655 | INFO     | gomate.modules.document.common_parser:parse:28 - /root/GoMate_RAG/data/A_document/AW13.pdf
+WARNING:root:Miss outlines
+2024-09-22 00:17:34.722 | INFO     | gomate.modules.document.common_parser:parse:28 - /root/GoMate_RAG/data/A_document/AW14.pdf
+WARNING:root:Miss outlines
+2024-09-22 00:17:35.048 | INFO     | gomate.modules.document.common_parser:parse:28 - /root/GoMate_RAG/data/A_document/AW15.pdf
+WARNING:root:Miss outlines
+2024-09-22 00:17:35.098 | INFO     | gomate.modules.document.common_parser:parse:28 - /root/GoMate_RAG/data/A_document/AW16.pdf
+WARNING:root:Miss outlines
+2024-09-22 00:17:35.204 | INFO     | gomate.modules.document.common_parser:parse:28 - /root/GoMate_RAG/data/A_document/AW17.pdf
+WARNING:root:Miss outlines
+2024-09-22 00:17:35.283 | INFO     | gomate.modules.document.common_parser:parse:28 - /root/GoMate_RAG/data/A_document/AW18.pdf
+WARNING:root:Miss outlines
+2024-09-22 00:17:35.363 | INFO     | gomate.modules.document.common_parser:parse:28 - /root/GoMate_RAG/data/A_document/AW19.pdf
+WARNING:root:Miss outlines
+2024-09-22 00:17:35.451 | INFO     | gomate.modules.document.common_parser:parse:28 - /root/GoMate_RAG/data/A_document/AW20.pdf
+WARNING:root:Miss outlines
+2024-09-22 00:17:35.530 | INFO     | gomate.modules.document.common_parser:parse:28 - /root/GoMate_RAG/data/A_document/AW21.pdf
+WARNING:root:Miss outlines
+2024-09-22 00:17:35.618 | INFO     | gomate.modules.document.common_parser:parse:28 - /root/GoMate_RAG/data/A_document/AW22.pdf
+WARNING:root:Miss outlines
+2024-09-22 00:17:35.688 | INFO     | gomate.modules.document.common_parser:parse:28 - /root/GoMate_RAG/data/A_document/AW23.pdf
+WARNING:root:Miss outlines
+2024-09-22 00:17:35.810 | INFO     | gomate.modules.document.common_parser:parse:28 - /root/GoMate_RAG/data/A_document/AW24.pdf
+WARNING:root:Miss outlines
+2024-09-22 00:17:35.869 | INFO     | gomate.modules.document.common_parser:parse:28 - /root/GoMate_RAG/data/A_document/AW25.pdf
+WARNING:root:Miss outlines
+2024-09-22 00:17:35.936 | INFO     | gomate.modules.document.common_parser:parse:28 - /root/GoMate_RAG/data/A_document/AW26.pdf
+WARNING:root:Miss outlines
+2024-09-22 00:17:36.005 | INFO     | gomate.modules.document.common_parser:parse:28 - /root/GoMate_RAG/data/A_document/AW27.pdf
+WARNING:root:Miss outlines
+2024-09-22 00:17:36.319 | INFO     | gomate.modules.document.common_parser:parse:28 - /root/GoMate_RAG/data/A_document/AW28.pdf
+WARNING:root:Miss outlines
+2024-09-22 00:17:36.396 | INFO     | gomate.modules.document.common_parser:parse:28 - /root/GoMate_RAG/data/A_document/AW29.pdf
+WARNING:root:Miss outlines
+2024-09-22 00:17:36.497 | INFO     | gomate.modules.document.common_parser:parse:28 - /root/GoMate_RAG/data/A_document/AW30.pdf
+WARNING:root:Miss outlines
+2024-09-22 00:17:36.553 | INFO     | gomate.modules.document.common_parser:parse:28 - /root/GoMate_RAG/data/A_document/AW31.pdf
+WARNING:root:Miss outlines
+2024-09-22 00:17:36.605 | INFO     | gomate.modules.document.common_parser:parse:28 - /root/GoMate_RAG/data/A_document/AW32.pdf
+WARNING:root:Miss outlines
+2024-09-22 00:17:36.832 | INFO     | gomate.modules.document.common_parser:parse:28 - /root/GoMate_RAG/data/A_document/AW33.pdf
+WARNING:root:Miss outlines
+2024-09-22 00:17:36.893 | INFO     | gomate.modules.document.common_parser:parse:28 - /root/GoMate_RAG/data/A_document/AW34.pdf
+WARNING:root:Miss outlines
+2024-09-22 00:17:37.071 | INFO     | gomate.modules.document.common_parser:parse:28 - /root/GoMate_RAG/data/A_document/AY01.pdf
+WARNING:root:Miss outlines
+2024-09-22 00:17:37.327 | INFO     | gomate.modules.document.common_parser:parse:28 - /root/GoMate_RAG/data/A_document/AY02.pdf
+WARNING:root:Miss outlines
+2024-09-22 00:17:37.896 | INFO     | gomate.modules.document.common_parser:parse:28 - /root/GoMate_RAG/data/A_document/AY03.pdf
+WARNING:root:Miss outlines
+2024-09-22 00:17:38.816 | INFO     | gomate.modules.document.common_parser:parse:28 - /root/GoMate_RAG/data/A_document/AY04.pdf
+WARNING:root:Miss outlines
+2024-09-22 00:17:39.351 | INFO     | gomate.modules.document.common_parser:parse:28 - /root/GoMate_RAG/data/A_document/AY05.pdf
+WARNING:root:Miss outlines
+2024-09-22 00:17:39.425 | INFO     | gomate.modules.document.common_parser:parse:28 - /root/GoMate_RAG/data/A_document/AY06.pdf
+2024-09-22 00:17:40.205 | INFO     | gomate.modules.document.common_parser:parse:28 - /root/GoMate_RAG/data/A_document/AY07.pdf
+WARNING:root:Miss outlines
+2024-09-22 00:17:40.516 | INFO     | gomate.modules.document.common_parser:parse:28 - /root/GoMate_RAG/data/A_document/AY08.pdf
+WARNING:root:Miss outlines
+2024-09-22 00:17:40.985 | INFO     | gomate.modules.document.common_parser:parse:28 - /root/GoMate_RAG/data/A_document/AY09.pdf
+WARNING:root:Miss outlines
+2024-09-22 00:17:41.204 | INFO     | gomate.modules.document.common_parser:parse:28 - /root/GoMate_RAG/data/A_document/AY10.pdf
+WARNING:root:Miss outlines
+2024-09-22 00:17:41.314 | INFO     | gomate.modules.document.common_parser:parse:28 - /root/GoMate_RAG/data/A_document/AY11.pdf
+2024-09-22 00:17:41.744 | INFO     | gomate.modules.document.common_parser:parse:28 - /root/GoMate_RAG/data/A_document/AY12.pdf
+WARNING:root:Miss outlines
+2024-09-22 00:17:42.356 | INFO     | gomate.modules.document.common_parser:parse:28 - /root/GoMate_RAG/data/A_document/AY13.pdf
+WARNING:root:Miss outlines
+2024-09-22 00:17:42.585 | INFO     | gomate.modules.document.common_parser:parse:28 - /root/GoMate_RAG/data/A_document/AY14.pdf
+WARNING:root:Miss outlines
+2024-09-22 00:17:42.811 | INFO     | gomate.modules.document.common_parser:parse:28 - /root/GoMate_RAG/data/A_document/AY15.pdf
+WARNING:root:Miss outlines
+2024-09-22 00:17:42.924 | INFO     | gomate.modules.document.common_parser:parse:28 - /root/GoMate_RAG/data/A_document/AZ01.pdf
+2024-09-22 00:17:43.499 | INFO     | gomate.modules.document.common_parser:parse:28 - /root/GoMate_RAG/data/A_document/AZ02.pdf
+WARNING:root:Miss outlines
+2024-09-22 00:17:44.763 | INFO     | gomate.modules.document.common_parser:parse:28 - /root/GoMate_RAG/data/A_document/AZ03.pdf
+2024-09-22 00:17:45.590 | INFO     | gomate.modules.document.common_parser:parse:28 - /root/GoMate_RAG/data/A_document/AZ04.pdf
+2024-09-22 00:17:46.295 | INFO     | gomate.modules.document.common_parser:parse:28 - /root/GoMate_RAG/data/A_document/AZ05.pdf
+2024-09-22 00:17:47.636 | INFO     | gomate.modules.document.common_parser:parse:28 - /root/GoMate_RAG/data/A_document/AZ06.pdf
+2024-09-22 00:17:48.664 | INFO     | gomate.modules.document.common_parser:parse:28 - /root/GoMate_RAG/data/A_document/AZ07.pdf
+2024-09-22 00:17:49.393 | INFO     | gomate.modules.document.common_parser:parse:28 - /root/GoMate_RAG/data/A_document/AZ08.pdf
+2024-09-22 00:17:50.611 | INFO     | gomate.modules.document.common_parser:parse:28 - /root/GoMate_RAG/data/A_document/AZ09.pdf
+WARNING:root:Miss outlines
+2024-09-22 00:17:51.964 | INFO     | gomate.modules.document.common_parser:parse:28 - /root/GoMate_RAG/data/A_document/AZ10.pdf
+WARNING:PyPDF2._encryption:ignore '/Perms' verify failed
+WARNING:root:Miss outlines
+Building index: 100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 47/47 [00:05<00:00,  7.95it/s]
+init_vector_store done! 
+Index saved successfully to ./examples/retrievers/dense_cache
+/root/GoMate_RAG/app.py:180: GradioDeprecationWarning: The `style` method is deprecated. Please set these arguments in the constructor instead.
+  chatbot = gr.Chatbot(label='Gomate Application').style(height=650)
+/root/GoMate_RAG/app.py:237: GradioDeprecationWarning: The `enable_queue` parameter has been deprecated. Please use the `.queue()` method instead.
+  demo.queue(concurrency_count=2).launch(
+Running on local URL:  http://0.0.0.0:7860
+IMPORTANT: You are using gradio version 3.40.0, however version 4.29.0 is available, please upgrade.
+--------
+
+Could not create share link. Missing file: /root/.conda/envs/gomate/lib/python3.11/site-packages/gradio/frpc_linux_amd64_v0.2. 
+
+Please check your internet connection. This can happen if your antivirus software blocks the download of this file. You can install manually by following these steps: 
+
+1. Download this file: https://cdn-media.huggingface.co/frpc-gradio-0.2/frpc_linux_amd64
+2. Rename the downloaded file to: frpc_linux_amd64_v0.2
+3. Move the file to this location: /root/.conda/envs/gomate/lib/python3.11/site-packages/gradio
+根据年度报告，2022年中国联通在向数字科技领军企业转变的过程中实现了哪些维度的转型升级？
+[{'text': '目前，公众客户所有业务都可以在中国联通APP上快速办理，政企客户也可以在线上自动开通专线、实时自助调速。我们的一线员工也实现了全数字化的作业，工作效率得到很大提升。可以说，在自身数字化转型方面，我们练就了解决复杂问题的一身本领，能够对外提供更成熟的数字化转型工具箱和方法论。九是科技创新指导意见务实推进，高水平科技自立自强取得里程碑式进展。现在，资本市场逐步开始认同不能再用老眼光看通信行业，中国联通也正在坚定地从传统运营商向科技创新型企业转变。我们坚持科技是第一生产力、人才是第一资源、创新是第一动力。科技创新投入更大，在全年研发投入超过130亿元的基础上，集团又新增加10亿元的关键核心技术攻关预算和3000万元的专项激励。科技创新力量更强，成立中国联通科协，聘任16名院士作为科技委特聘专家。科技创新成色更足，助力“科技冬奥”实现20多项“历史突破”“全球首创”，打造900MHz低频网的5G自主创新“试验田”，授权专利同比增长超过50%，自主研发产品收入同比增长达到77%。今年也是中国联通科技创新具有里程碑意义的一年，我们收获了3项分量十足的荣誉：一是被党中央、国务院授予“北京冬奥会、冬残奥会突出贡献集体”奖。', 'score': 4.74609375}, {'text': '2022年以业务融合创新驱动数字化转型2.0，现已迭代升级为数智强企战略。中国联通历经10余年的数字化转型实践，沉淀了数字化转型能力，并持续拓展对外赋能，为其在互联网下半场入局奠定了基础。目前，中国联通服务包括国家电网、中国华电、中国电建、贵州茅台、格力电器等300多家大型企业客户，在推进企业数字化转型中以企业数字化转型咨询规划服务为切入点，围绕企业数字化转型的数字化基础设施、生产数字化、经营数字化、管理数字化4个重点领域实现全面数字化，帮助企业降本增效提质。同时，在下半场的生产型互联网中，中国联通全面承接新时代赋予的新使命，加强数字技术融合创新，发力数字经济，赋能千行百业转型升级。中国联通把“5G+工业互联网”作为助力新型工业化发展的重要抓手，推出工业终端、网、云、平台、安全等产品体系，在电子、装备、服装、汽车、矿山、港口等行业实现规模应用，覆盖41个工业分类，落地项目超1.2万个，服务5G工厂超4000个，打造一批典型标杆，形成规模示范效应。提升数字政府治理效能互联网、大数据、云计算、人工智能、区块链等技术不断发展，不仅深刻改变着人们的生产生活方式，也对国家治理产生重大影响。', 'score': 5.36328125}, {'text': '通过与这些合作伙伴的紧密合作，中国联通不仅拓宽了数据来源和应用场景，还提升了整个生态体系的创新能力和竞争力。同时，中国联通还积极参与行业标准的制定和推广工作，推动行业标准的完善和提升，为整个行业的健康发展贡献了自己的力量。综上所述，中国联通在技术创新和智能化生态的打造方面取得了显著成效。未来，随着数字经济的不断深入发展，中国联通将继续秉持创新驱动的发展理念，不断提升数据管理能力和智能化水平，为行业的数字化转型和智能化升级贡献更多力量。四、数字化转型实践，助力数字中国建设中国联通在数字化转型方面的实践成果丰硕。通过加快推进数字化转型，中国联通以改革创新为动力，以集约化建设为契机，坚持推进核心技术自主化，向全面智能化方向演进。在数字化转型过程中，中国联通呈现出“高定位”“强内核”“重评价”“重方法”的四大特点，为行业树立了标杆。在融入“数字中国”建设方面，中国联通积极打造数字化转型标杆项目，通过示范引领推动行业数字化转型的深入发展。同时，中国联通还致力于破解数据流通难题，布局数据要素市场，为数据资源的优化配置和高效利用提供有力支持。', 'score': 4.5546875}, {'text': '我们坚定践行网络强国、数字中国、智慧社会战略部署，今天的中国联通，正在从传统运营商加速向数字科技领军企业转变，实现了四个维度的转型升级：一是联接规模和联接结构升维，从过去的连接人为主拓展到连接人机物，大力发展物联网和工业互联网；二是核心功能升维，从以基础连接为主发展到大联接、大计算、大数据、大应用、大安全五大主责主业；三是服务和赋能水平升维，以5G、云计算、大数据、人工智能、区块链为代表的新一代信息技术和实体经济的结合，服务数字政府、数字社会、数字经济的能力不断增强；四是发展理念升维，我们以传统的市场驱动为主转变为市场驱动和创新驱动相结合的发展模式，尤其是加大了科技创新及人才方面的投入力度，创新发展的动能得到了空前的释放。面对数字经济的巨大机遇和广阔蓝海，我们积极储备核心能力，全年资本支出达到人民币742亿元，企业行稳致远的根本得到了巩固夯实。公司延续近年来强劲稳健的财务状况，资产负债率维持在46%的合理水平，财务费用同比大幅下降873%，财务实力和抗风险能力不断增强。公司高度重视股东回报。', 'score': 6.9375}]
+Both `max_new_tokens` (=1024) and `max_length`(=32000) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+Building prefix dict from the default dictionary ...
+DEBUG:jieba:Building prefix dict from the default dictionary ...
+Dumping model to file cache /tmp/jieba.cache
+DEBUG:jieba:Dumping model to file cache /tmp/jieba.cache
+Loading model cost 0.574 seconds.
+DEBUG:jieba:Loading model cost 0.574 seconds.
+Prefix dict has been built successfully.
+DEBUG:jieba:Prefix dict has been built successfully.
+--------------------【模型回答】----------------
+
+{'result': '根据年度报告，2022年中国联通在向数字科技领军企业转变的过程中实现了以下维度的转型升级：\n\n1. **联接规模和联接结构升维**：中国联通从过去的连接人为主拓展到连接人机物，大力发展物联网和工业互联网[1]。这表明中国联通在网络覆盖和服务对象上进行了升级，从单一的移动通信服务扩展到更广泛的物联网和工业互联网领域。\n\n2. **核心功能升维**：中国联通从以基础连接为主发展到大联接、大计算、大数据、大应用、大安全五大主责主业[2]。这表明中国联通在服务功能上进行了全面升级，不仅提供基础的通信服务，还扩展到了计算、数据、应用和安全等更高级别的服务。\n\n3. **服务和赋能水平升维**：中国联通以5G、云计算、大数据、人工智能、区块链为代表的新一代信息技术和实体经济的结合，服务数字政府、数字社会、数字经济的能力不断增强[3]。这表明中国联通在服务能力和赋能水平上进行了显著提升，通过新一代信息技术与实体经济的深度融合，提升了在数字政府、数字社会和数字经济等领域的赋能能力。\n\n4. **发展理念升维**：中国联通从传统的市场驱动为主转变为市场驱动和创新驱动相结合的发展模式，尤其是在科技创新及人才方面的投入力度加大，创新发展的动能得到了空前的释放[4]。这表明中国联通在发展理念上进行了根本性的转变，更加注重创新驱动和人才投入，以适应数字经济的发展需求。\n\n通过这些维度的转型升级，中国联通正在从传统运营商加速向数字科技领军企业转变，为数字中国的建设贡献力量[5]。', 'quote_list': [{'doc_id': 90564, 'chk_id': 0, 'doc_source': '新闻来源', 'doc_date': '2021-10-19', 'doc_title': '新闻标题', 'chk_content': '我们坚定践行网络强国、数字中国、智慧社会战略部署，今天的中国联通，正在从传统运营商加速向数字科技领军企业转变，实现了四个维度的转型升级：一是联接规模和联接结构升维，从过去的连接人为主拓展到连接人机物，大力发展物联网和工业互联网；二是核心功能升维，从以基础连接为主发展到大联接、大计算、大数据、大应用、大安全五大主责主业；三是服务和赋能水平升维，以5G、云计算、大数据、人工智能、区块链为代表的新一代信息技术和实体经济的结合，服务数字政府、数字社会、数字经济的能力不断增强；四是发展理念升维，我们以传统的市场驱动为主转变为市场驱动和创新驱动相结合的发展模式，尤其是加大了科技创新及人才方面的投入力度，创新发展的动能得到了空前的释放。面对数字经济的巨大机遇和广阔蓝海，我们积极储备核心能力，全年资本支出达到人民币742亿元，企业行稳致远的根本得到了巩固夯实。公司延续近年来强劲稳健的财务状况，资产负债率维持在46%的合理水平，财务费用同比大幅下降873%，财务实力和抗风险能力不断增强。公司高度重视股东回报。', 'best_ratio': 0.7333333333333333, 'highlight': [[82, 113]]}, {'doc_id': 90564, 'chk_id': 1, 'doc_source': '新闻来源', 'doc_date': '2021-10-19', 'doc_title': '新闻标题', 'chk_content': '我们坚定践行网络强国、数字中国、智慧社会战略部署，今天的中国联通，正在从传统运营商加速向数字科技领军企业转变，实现了四个维度的转型升级：一是联接规模和联接结构升维，从过去的连接人为主拓展到连接人机物，大力发展物联网和工业互联网；二是核心功能升维，从以基础连接为主发展到大联接、大计算、大数据、大应用、大安全五大主责主业；三是服务和赋能水平升维，以5G、云计算、大数据、人工智能、区块链为代表的新一代信息技术和实体经济的结合，服务数字政府、数字社会、数字经济的能力不断增强；四是发展理念升维，我们以传统的市场驱动为主转变为市场驱动和创新驱动相结合的发展模式，尤其是加大了科技创新及人才方面的投入力度，创新发展的动能得到了空前的释放。面对数字经济的巨大机遇和广阔蓝海，我们积极储备核心能力，全年资本支出达到人民币742亿元，企业行稳致远的根本得到了巩固夯实。公司延续近年来强劲稳健的财务状况，资产负债率维持在46%的合理水平，财务费用同比大幅下降873%，财务实力和抗风险能力不断增强。公司高度重视股东回报。', 'best_ratio': 0.8461538461538461, 'highlight': [[123, 159]]}, {'doc_id': 90564, 'chk_id': 2, 'doc_source': '新闻来源', 'doc_date': '2021-10-19', 'doc_title': '新闻标题', 'chk_content': '我们坚定践行网络强国、数字中国、智慧社会战略部署，今天的中国联通，正在从传统运营商加速向数字科技领军企业转变，实现了四个维度的转型升级：一是联接规模和联接结构升维，从过去的连接人为主拓展到连接人机物，大力发展物联网和工业互联网；二是核心功能升维，从以基础连接为主发展到大联接、大计算、大数据、大应用、大安全五大主责主业；三是服务和赋能水平升维，以5G、云计算、大数据、人工智能、区块链为代表的新一代信息技术和实体经济的结合，服务数字政府、数字社会、数字经济的能力不断增强；四是发展理念升维，我们以传统的市场驱动为主转变为市场驱动和创新驱动相结合的发展模式，尤其是加大了科技创新及人才方面的投入力度，创新发展的动能得到了空前的释放。面对数字经济的巨大机遇和广阔蓝海，我们积极储备核心能力，全年资本支出达到人民币742亿元，企业行稳致远的根本得到了巩固夯实。公司延续近年来强劲稳健的财务状况，资产负债率维持在46%的合理水平，财务费用同比大幅下降873%，财务实力和抗风险能力不断增强。公司高度重视股东回报。', 'best_ratio': 0.8857142857142857, 'highlight': [[172, 235]]}, {'doc_id': 90564, 'chk_id': 3, 'doc_source': '新闻来源', 'doc_date': '2021-10-19', 'doc_title': '新闻标题', 'chk_content': '我们坚定践行网络强国、数字中国、智慧社会战略部署，今天的中国联通，正在从传统运营商加速向数字科技领军企业转变，实现了四个维度的转型升级：一是联接规模和联接结构升维，从过去的连接人为主拓展到连接人机物，大力发展物联网和工业互联网；二是核心功能升维，从以基础连接为主发展到大联接、大计算、大数据、大应用、大安全五大主责主业；三是服务和赋能水平升维，以5G、云计算、大数据、人工智能、区块链为代表的新一代信息技术和实体经济的结合，服务数字政府、数字社会、数字经济的能力不断增强；四是发展理念升维，我们以传统的市场驱动为主转变为市场驱动和创新驱动相结合的发展模式，尤其是加大了科技创新及人才方面的投入力度，创新发展的动能得到了空前的释放。面对数字经济的巨大机遇和广阔蓝海，我们积极储备核心能力，全年资本支出达到人民币742亿元，企业行稳致远的根本得到了巩固夯实。公司延续近年来强劲稳健的财务状况，资产负债率维持在46%的合理水平，财务费用同比大幅下降873%，财务实力和抗风险能力不断增强。公司高度重视股东回报。', 'best_ratio': 0.8648648648648649, 'highlight': [[248, 281]]}, {'doc_id': 90564, 'chk_id': 4, 'doc_source': '新闻来源', 'doc_date': '2021-10-19', 'doc_title': '新闻标题', 'chk_content': '我们坚定践行网络强国、数字中国、智慧社会战略部署，今天的中国联通，正在从传统运营商加速向数字科技领军企业转变，实现了四个维度的转型升级：一是联接规模和联接结构升维，从过去的连接人为主拓展到连接人机物，大力发展物联网和工业互联网；二是核心功能升维，从以基础连接为主发展到大联接、大计算、大数据、大应用、大安全五大主责主业；三是服务和赋能水平升维，以5G、云计算、大数据、人工智能、区块链为代表的新一代信息技术和实体经济的结合，服务数字政府、数字社会、数字经济的能力不断增强；四是发展理念升维，我们以传统的市场驱动为主转变为市场驱动和创新驱动相结合的发展模式，尤其是加大了科技创新及人才方面的投入力度，创新发展的动能得到了空前的释放。面对数字经济的巨大机遇和广阔蓝海，我们积极储备核心能力，全年资本支出达到人民币742亿元，企业行稳致远的根本得到了巩固夯实。公司延续近年来强劲稳健的财务状况，资产负债率维持在46%的合理水平，财务费用同比大幅下降873%，财务实力和抗风险能力不断增强。公司高度重视股东回报。', 'best_ratio': 0.7916666666666666, 'highlight': [[33, 55]]}]}
+Traceback (most recent call last):
+  File "/root/.conda/envs/gomate/lib/python3.11/site-packages/gradio/routes.py", line 488, in run_predict
+    output = await app.get_blocks().process_api(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/.conda/envs/gomate/lib/python3.11/site-packages/gradio/blocks.py", line 1430, in process_api
+    data = self.postprocess_data(fn_index, result["prediction"], state)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/.conda/envs/gomate/lib/python3.11/site-packages/gradio/blocks.py", line 1341, in postprocess_data
+    prediction_value = block.postprocess(prediction_value)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/.conda/envs/gomate/lib/python3.11/site-packages/gradio/components/chatbot.py", line 241, in postprocess
+    self._postprocess_chat_messages(message_pair[1]),
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/.conda/envs/gomate/lib/python3.11/site-packages/gradio/components/chatbot.py", line 216, in _postprocess_chat_messages
+    raise ValueError(f"Invalid message for Chatbot component: {chat_message}")
+ValueError: Invalid message for Chatbot component: {'result': '根据年度报告，2022年中国联通在向数字科技领军企业转变的过程中实现了以下维度的转型升级：\n\n1. **联接规模和联接结构升维**：中国联通从过去的连接人为主拓展到连接人机物，大力发展物联网和工业互联网[1]。这表明中国联通在网络覆盖和服务对象上进行了升级，从单一的移动通信服务扩展到更广泛的物联网和工业互联网领域。\n\n2. **核心功能升维**：中国联通从以基础连接为主发展到大联接、大计算、大数据、大应用、大安全五大主责主业[2]。这表明中国联通在服务功能上进行了全面升级，不仅提供基础的通信服务，还扩展到了计算、数据、应用和安全等更高级别的服务。\n\n3. **服务和赋能水平升维**：中国联通以5G、云计算、大数据、人工智能、区块链为代表的新一代信息技术和实体经济的结合，服务数字政府、数字社会、数字经济的能力不断增强[3]。这表明中国联通在服务能力和赋能水平上进行了显著提升，通过新一代信息技术与实体经济的深度融合，提升了在数字政府、数字社会和数字经济等领域的赋能能力。\n\n4. **发展理念升维**：中国联通从传统的市场驱动为主转变为市场驱动和创新驱动相结合的发展模式，尤其是在科技创新及人才方面的投入力度加大，创新发展的动能得到了空前的释放[4]。这表明中国联通在发展理念上进行了根本性的转变，更加注重创新驱动和人才投入，以适应数字经济的发展需求。\n\n通过这些维度的转型升级，中国联通正在从传统运营商加速向数字科技领军企业转变，为数字中国的建设贡献力量[5]。', 'quote_list': [{'doc_id': 90564, 'chk_id': 0, 'doc_source': '新闻来源', 'doc_date': '2021-10-19', 'doc_title': '新闻标题', 'chk_content': '我们坚定践行网络强国、数字中国、智慧社会战略部署，今天的中国联通，正在从传统运营商加速向数字科技领军企业转变，实现了四个维度的转型升级：一是联接规模和联接结构升维，从过去的连接人为主拓展到连接人机物，大力发展物联网和工业互联网；二是核心功能升维，从以基础连接为主发展到大联接、大计算、大数据、大应用、大安全五大主责主业；三是服务和赋能水平升维，以5G、云计算、大数据、人工智能、区块链为代表的新一代信息技术和实体经济的结合，服务数字政府、数字社会、数字经济的能力不断增强；四是发展理念升维，我们以传统的市场驱动为主转变为市场驱动和创新驱动相结合的发展模式，尤其是加大了科技创新及人才方面的投入力度，创新发展的动能得到了空前的释放。面对数字经济的巨大机遇和广阔蓝海，我们积极储备核心能力，全年资本支出达到人民币742亿元，企业行稳致远的根本得到了巩固夯实。公司延续近年来强劲稳健的财务状况，资产负债率维持在46%的合理水平，财务费用同比大幅下降873%，财务实力和抗风险能力不断增强。公司高度重视股东回报。', 'best_ratio': 0.7333333333333333, 'highlight': [[82, 113]]}, {'doc_id': 90564, 'chk_id': 1, 'doc_source': '新闻来源', 'doc_date': '2021-10-19', 'doc_title': '新闻标题', 'chk_content': '我们坚定践行网络强国、数字中国、智慧社会战略部署，今天的中国联通，正在从传统运营商加速向数字科技领军企业转变，实现了四个维度的转型升级：一是联接规模和联接结构升维，从过去的连接人为主拓展到连接人机物，大力发展物联网和工业互联网；二是核心功能升维，从以基础连接为主发展到大联接、大计算、大数据、大应用、大安全五大主责主业；三是服务和赋能水平升维，以5G、云计算、大数据、人工智能、区块链为代表的新一代信息技术和实体经济的结合，服务数字政府、数字社会、数字经济的能力不断增强；四是发展理念升维，我们以传统的市场驱动为主转变为市场驱动和创新驱动相结合的发展模式，尤其是加大了科技创新及人才方面的投入力度，创新发展的动能得到了空前的释放。面对数字经济的巨大机遇和广阔蓝海，我们积极储备核心能力，全年资本支出达到人民币742亿元，企业行稳致远的根本得到了巩固夯实。公司延续近年来强劲稳健的财务状况，资产负债率维持在46%的合理水平，财务费用同比大幅下降873%，财务实力和抗风险能力不断增强。公司高度重视股东回报。', 'best_ratio': 0.8461538461538461, 'highlight': [[123, 159]]}, {'doc_id': 90564, 'chk_id': 2, 'doc_source': '新闻来源', 'doc_date': '2021-10-19', 'doc_title': '新闻标题', 'chk_content': '我们坚定践行网络强国、数字中国、智慧社会战略部署，今天的中国联通，正在从传统运营商加速向数字科技领军企业转变，实现了四个维度的转型升级：一是联接规模和联接结构升维，从过去的连接人为主拓展到连接人机物，大力发展物联网和工业互联网；二是核心功能升维，从以基础连接为主发展到大联接、大计算、大数据、大应用、大安全五大主责主业；三是服务和赋能水平升维，以5G、云计算、大数据、人工智能、区块链为代表的新一代信息技术和实体经济的结合，服务数字政府、数字社会、数字经济的能力不断增强；四是发展理念升维，我们以传统的市场驱动为主转变为市场驱动和创新驱动相结合的发展模式，尤其是加大了科技创新及人才方面的投入力度，创新发展的动能得到了空前的释放。面对数字经济的巨大机遇和广阔蓝海，我们积极储备核心能力，全年资本支出达到人民币742亿元，企业行稳致远的根本得到了巩固夯实。公司延续近年来强劲稳健的财务状况，资产负债率维持在46%的合理水平，财务费用同比大幅下降873%，财务实力和抗风险能力不断增强。公司高度重视股东回报。', 'best_ratio': 0.8857142857142857, 'highlight': [[172, 235]]}, {'doc_id': 90564, 'chk_id': 3, 'doc_source': '新闻来源', 'doc_date': '2021-10-19', 'doc_title': '新闻标题', 'chk_content': '我们坚定践行网络强国、数字中国、智慧社会战略部署，今天的中国联通，正在从传统运营商加速向数字科技领军企业转变，实现了四个维度的转型升级：一是联接规模和联接结构升维，从过去的连接人为主拓展到连接人机物，大力发展物联网和工业互联网；二是核心功能升维，从以基础连接为主发展到大联接、大计算、大数据、大应用、大安全五大主责主业；三是服务和赋能水平升维，以5G、云计算、大数据、人工智能、区块链为代表的新一代信息技术和实体经济的结合，服务数字政府、数字社会、数字经济的能力不断增强；四是发展理念升维，我们以传统的市场驱动为主转变为市场驱动和创新驱动相结合的发展模式，尤其是加大了科技创新及人才方面的投入力度，创新发展的动能得到了空前的释放。面对数字经济的巨大机遇和广阔蓝海，我们积极储备核心能力，全年资本支出达到人民币742亿元，企业行稳致远的根本得到了巩固夯实。公司延续近年来强劲稳健的财务状况，资产负债率维持在46%的合理水平，财务费用同比大幅下降873%，财务实力和抗风险能力不断增强。公司高度重视股东回报。', 'best_ratio': 0.8648648648648649, 'highlight': [[248, 281]]}, {'doc_id': 90564, 'chk_id': 4, 'doc_source': '新闻来源', 'doc_date': '2021-10-19', 'doc_title': '新闻标题', 'chk_content': '我们坚定践行网络强国、数字中国、智慧社会战略部署，今天的中国联通，正在从传统运营商加速向数字科技领军企业转变，实现了四个维度的转型升级：一是联接规模和联接结构升维，从过去的连接人为主拓展到连接人机物，大力发展物联网和工业互联网；二是核心功能升维，从以基础连接为主发展到大联接、大计算、大数据、大应用、大安全五大主责主业；三是服务和赋能水平升维，以5G、云计算、大数据、人工智能、区块链为代表的新一代信息技术和实体经济的结合，服务数字政府、数字社会、数字经济的能力不断增强；四是发展理念升维，我们以传统的市场驱动为主转变为市场驱动和创新驱动相结合的发展模式，尤其是加大了科技创新及人才方面的投入力度，创新发展的动能得到了空前的释放。面对数字经济的巨大机遇和广阔蓝海，我们积极储备核心能力，全年资本支出达到人民币742亿元，企业行稳致远的根本得到了巩固夯实。公司延续近年来强劲稳健的财务状况，资产负债率维持在46%的合理水平，财务费用同比大幅下降873%，财务实力和抗风险能力不断增强。公司高度重视股东回报。', 'best_ratio': 0.7916666666666666, 'highlight': [[33, 55]]}]}
